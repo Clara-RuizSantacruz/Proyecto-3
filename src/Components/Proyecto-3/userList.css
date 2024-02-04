@@ -1,0 +1,144 @@
+
+* {
+  font-family: Open Sans;
+}
+
+.formulary {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    font-weight: 400;
+    font-size: 12px;
+    margin: 50px;
+  }
+  
+  .formulary-background {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    width: 345px;
+    height: 705px;
+    background-color: #F8DBDC;
+    border-radius: 30px;
+    margin: 50px 0px 50px 50px;
+    
+    
+  }
+  
+  .double-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  
+  #first-lastname,
+  #second-lastname {
+    width: 115px
+  }
+  
+  .input {
+    width: 245px;
+    height: 35px;
+    border-radius: 10px;
+    border: 0.5px solid #000;
+    margin-top: 10px;
+    background-color:  white;
+  }
+  
+  .send-button {
+    background-color: #D4E2D4;
+    border-radius: 20px;
+    border-color: #000000;
+    border: 1px solid;
+    font-size: 16px;
+    width: 165px;
+    height: 49px;
+    margin-left: 40px;
+  }
+  
+
+  .mainGroup {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FAF3F0;
+}
+
+ 
+ .title{
+   background-color: brown;
+ }
+
+ /*Estilos botón*/
+ .send-button {
+  background-color: #D4E2D4;
+  border-radius: 20px;
+  border-color: #000000;
+  border: 1px solid;
+  font-size: 16px;
+  width: 165px;
+  height: 49px;
+}
+
+/* Estilos de la tabla */
+
+.whole-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table-head {
+  border-radius: 10px 10px 0 0;
+}
+
+.table-head-row {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.table-head-row th {
+  padding: 15px;
+  border: none;
+  background-color: transparent;
+}
+
+.table-row:nth-child(even) {
+  background-color: #D4E2D4;
+}
+
+.table-row:nth-child(odd) {
+  background-color: #FAF3F0;
+}
+
+.table-row:hover {
+  background-color: #F8DBDC;
+}
+
+.table-row {
+  transition: background-color 0.3s ease;
+}
+
+.name,
+.first-surname,
+.second-surname,
+.email,
+.number {
+  padding: 15px;
+  border: none;
+  text-align: left;
+}
+
+/*Para que la tabla ajuste su tamaño*/
+
+.table-container {
+  flex-grow: 1;
+  margin: 40px;
+}
+
+.whole-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0 auto;
+  
+}
+
