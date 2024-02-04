@@ -1,0 +1,28 @@
+{
+  "user": [
+    {
+      "userName": "",
+      "userFirstSurname": "",
+      "userSecondSurname": "",
+      "userEmail": "",
+      "userNumber": "",
+      "id": "efd4"
+    },
+    {
+      "id": "0533",
+      "userName": "Clara",
+      "userFirstSurname": "Ruiz",
+      "userSecondSurname": "Jiménez",
+      "userEmail": "claritarsj@gmail.com",
+      "userNumber": "689223797"
+    },
+    {
+      "id": "fdb4",
+      "userName": "Clara",
+      "userFirstSurname": "Clara",
+      "userSecondSurname": "Ruiz-Santacruz Jiménez",
+      "userEmail": "claritarsj@gmail.com",
+      "userNumber": "689223797"
+    }
+  ]
+}
